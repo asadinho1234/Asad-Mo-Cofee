@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Grind & Gather — Artisan coffee roasted daily in the heart of the city. Espresso, pour-over, cold brew, and seasonal specialties crafted with care." />
+  <meta name="theme-color" content="#1a0f07" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Grind & Gather Coffee" />
+  <meta property="og:description" content="Artisan coffee roasted daily. Visit us for espresso, pour-over, and seasonal brews." />
+  <meta property="og:type"        content="website" />
+
+  <title>Asad &amp; Mo — Ali Coffee</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Custom cursor (desktop only) -->
+  <div class="cursor" aria-hidden="true"></div>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       SITE NAVIGATION
+  ════════════════════════════════════════════════════════ -->
+  <header class="site-nav" id="site-nav" role="banner">
+    <div class="u-container">
+      <nav class="site-nav__inner" aria-label="Primary navigation">
+
+        <!-- Logo -->
+        <a href="#home" class="site-nav__logo" aria-label="Asad & Mo — Home">
+          <!-- Coffee cup SVG mark -->
+          <svg class="site-nav__logo-mark" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="19" cy="19" r="18.5" stroke="#b5722a" stroke-opacity=".4"/>
+            <path d="M10 14h18l-2 12H12L10 14z" fill="#b5722a" fill-opacity=".2" stroke="#b5722a" stroke-width="1.2" stroke-linejoin="round"/>
+            <path d="M26 16h3a2 2 0 0 1 0 4h-3" stroke="#b5722a" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M15 10c0 0 1-2 0-3M19 10c0 0 1-2 0-3" stroke="#d4974a" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+          <span class="site-nav__logo-text">
+            Asad &amp; Mo
+            <small>Est. 2018 · Artisan Roasters</small>
+          </span>
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="site-nav__links" role="list">
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#process">Craft</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Find Us</a></li>
+        </ul>
+
+        <!-- Desktop CTA -->
+        <a href="#contact" class="site-nav__cta">Order Online</a>
+
+        <!-- Mobile hamburger -->
+        <button
+          class="site-nav__toggle"
+          aria-label="Toggle mobile menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       MAIN CONTENT
+  ════════════════════════════════════════════════════════ -->
+  <main id="main-content">
+
+
+    <!-- ── HERO ─────────────────────────────────────────── -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+
+      <!-- Left copy panel -->
+      <div class="hero__panel--left">
+        <div class="hero__content u-container" style="padding-inline-start:0; padding-inline-end:0;">
+
+          <p class="hero__eyebrow u-tag">Roasted Fresh Daily</p>
+
+          <h1 class="hero__title" id="hero-title">
+            Every sip<br />
+            <em>tells a story.</em>
+          </h1>
+
+          <p class="hero__sub">
+            Sourced from single-origin farms, roasted in small batches,
+            and brewed by hands that truly care. This is coffee as it should be.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#menu" class="btn btn--primary">
+              Explore the Menu
+              <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M1 8h14M9 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn--outline">Our Story</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right image panel -->
+      <div class="hero__panel--right" aria-hidden="true">
+          <img class="hero__bg-image" src="images/Our Story.png" alt="" />
+       
+        <!-- <div class="hero__bg-placeholder"> -->
+          <!-- Decorative SVG illustration -->
+          <!-- <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="opacity:.15">
+            <circle cx="90" cy="90" r="88" stroke="#b5722a" stroke-width="1.5" stroke-dasharray="8 6"/>
+            <path d="M45 80h90l-10 60H55L45 80z" stroke="#b5722a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+            <path d="M130 88h16a10 10 0 0 1 0 20h-16" stroke="#b5722a" stroke-width="2" stroke-linecap="round"/>
+            <path d="M70 50c0 0 6-12 0-18M90 50c0 0 6-12 0-18M110 50c0 0 6-12 0-18" stroke="#d4974a" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="90" cy="155" rx="40" ry="5" fill="#b5722a" fill-opacity=".2"/>
+          </svg> -->
+        <!-- </div> -->
+
+        <!-- Floating stats -->
+        <aside class="hero__stat" aria-label="Years in business">
+          <strong>6+</strong>
+          <span>Years Roasting</span>
+        </aside>
+        <aside class="hero__stat" aria-label="Coffee origins">
+          <strong>12</strong>
+          <span>Bean Origins</span>
+        </aside>
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="hero__scroll" aria-hidden="true">Scroll</div>
+
+    </section><!-- /hero -->
+
+
+    <!-- ── ABOUT / STORY ──────────────────────────────────── -->
+    <section class="story" id="about" aria-labelledby="story-title">
+      <div class="u-container">
+        <div class="story__grid">
+
+          <!-- Left: visual -->
+          <figure class="story__media reveal reveal--left" aria-label="Barista at work">
+            <div class="story__frame">
+              
+                
+                <img src="images/barista.png" alt="Our head barista preparing a pour-over" />
+             
+              <!-- <div class="story__frame-placeholder" role="img" aria-label="Barista placeholder">
+                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="opacity:.2">
+                  <circle cx="50" cy="30" r="20" stroke="#d4974a" stroke-width="2"/>
+                  <path d="M15 95c0-19.33 15.67-35 35-35s35 15.67 35 35" stroke="#d4974a" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div> -->
+            </div>
+
+            <div class="story__badge" aria-hidden="true">
+              <span>Small<br />Batch<br />Roasted</span>
+            </div>
+          </figure>
+
+          <!-- Right: copy -->
+          <div class="story__copy">
+            <p class="u-tag reveal">Our Story</p>
+
+            <h2 class="story__heading reveal" id="story-title">
+              Not just coffee —<br /><em>a ritual.</em>
+            </h2>
+
+            <p class="story__text reveal">
+              Grind &amp; Gather was born from a simple obsession: finding the world's most
+              extraordinary beans and doing them justice. Founded in 2018 by two friends
+              who quit corporate life to chase the perfect cup, we've never looked back.
+            </p>
+            <p class="story__text reveal">
+              Every bag we roast carries the story of the farmer who grew it, the altitude
+              that shaped it, and the hands that processed it. We believe coffee is the
+              world's most democratic luxury — and we're here to share it.
+            </p>
+
+            <ul class="story__values" role="list">
+              <li class="story__value reveal">
+                <div class="story__value-icon" aria-hidden="true">🌱</div>
+                <p class="story__value-title">Ethically Sourced</p>
+                <p class="story__value-text">Direct-trade partnerships with 14 farms across 9 countries.</p>
+              </li>
+              <li class="story__value reveal">
+                <div class="story__value-icon" aria-hidden="true">🔥</div>
+                <p class="story__value-title">Fresh Roasted</p>
+                <p class="story__value-text">Roasted on-site every morning. Never more than 5 days old.</p>
+              </li>
+              <li class="story__value reveal">
+                <div class="story__value-icon" aria-hidden="true">♻️</div>
+                <p class="story__value-title">Zero Waste</p>
+                <p class="story__value-text">Compostable packaging, spent grounds go to local gardens.</p>
+              </li>
+              <li class="story__value reveal">
+                <div class="story__value-icon" aria-hidden="true">🏆</div>
+                <p class="story__value-title">Award Winning</p>
+                <p class="story__value-text">Best Independent Roaster, City Coffee Awards 2023 &amp; 2024.</p>
+              </li>
+            </ul>
+
+            <a href="#menu" class="btn btn--primary reveal">
+              See What's Brewing
+              <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M1 8h14M9 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /about -->
+
+
+    <!-- ── MENU HIGHLIGHTS ────────────────────────────────── -->
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="u-container">
+
+        <header class="menu__header">
+          <p class="u-tag reveal">The Menu</p>
+          <h2 class="menu__heading reveal" id="menu-title">
+            Crafted with intention,<br />served with soul
+          </h2>
+          <p class="menu__sub reveal">
+            From our signature espresso pulls to rare single-origin pour-overs —
+            every drink is a conversation between bean and brewer.
+          </p>
+        </header>
+
+        <!-- Category filter tabs -->
+        <div class="menu__tabs" role="tablist" aria-label="Filter menu by category">
+          <button class="menu__tab is-active" role="tab" data-filter="all"      aria-selected="true">All</button>
+          <button class="menu__tab"           role="tab" data-filter="espresso" aria-selected="false">Espresso</button>
+          <button class="menu__tab"           role="tab" data-filter="milk"     aria-selected="false">Milk Drinks</button>
+          <button class="menu__tab"           role="tab" data-filter="cold"     aria-selected="false">Cold Brew</button>
+          <button class="menu__tab"           role="tab" data-filter="food"     aria-selected="false">Pastries</button>
+        </div>
+
+        <!-- Menu cards grid -->
+        <ul class="menu__grid reveal" role="list">
+
+          <!-- Card 1: Espresso -->
+          <li class="menu-card" data-category="espresso">
+            <figure class="menu-card__image">
+              <div class="menu-card__image-inner menu-card__placeholder--espresso">
+                  <img src="images/Espareso.jpg" alt="Double espresso in a ceramic cup" />
+               
+                <!-- <div class="menu-card__placeholder" role="img" aria-label="Espresso illustration">
+                  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12 22h32l-4 22H16L12 22z" stroke="white" stroke-width="1.5" fill="none"/>
+                    <path d="M44 28h6a4 4 0 0 1 0 8h-6" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M20 18c0 0 2-4 0-6M28 18c0 0 2-4 0-6M36 18c0 0 2-4 0-6" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+                  </svg>
+                </div> -->
+              </div>
+              <span class="menu-card__badge">Signature</span>
+            </figure>
+            <div class="menu-card__body">
+              <p class="menu-card__category">Espresso</p>
+              <h3 class="menu-card__name">The Black Ritual</h3>
+              <p class="menu-card__desc">
+                Double ristretto pulled through our house blend — Ethiopian Yirgacheffe &amp;
+                Colombian Huila. Dark chocolate, bergamot finish.
+              </p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$4.50</span>
+                <button class="menu-card__order" aria-label="Add The Black Ritual to order">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 2: Latte -->
+          <li class="menu-card" data-category="milk">
+            <figure class="menu-card__image">
+              <div class="menu-card__image-inner menu-card__placeholder--latte">
+                 <div class="menu-card__image-inner menu-card__placeholder--espresso">
+                  <img src="images/latte.jpg" alt="Double espresso in a ceramic cup" />
+                <!-- <div class="menu-card__placeholder" role="img" aria-label="Latte illustration">
+                  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <ellipse cx="28" cy="38" rx="18" ry="6" stroke="white" stroke-width="1.5" fill="none"/>
+                    <path d="M10 38V20a18 6 0 0 1 36 0v18" stroke="white" stroke-width="1.5"/>
+                    <ellipse cx="28" cy="20" rx="18" ry="6" stroke="white" stroke-width="1.5" fill="none" opacity=".5"/>
+                    <path d="M20 20c4-3 12-3 16 0" stroke="white" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+                  </svg>
+                </div> -->
+              </div>
+              <span class="menu-card__badge">Popular</span>
+            </figure>
+            <div class="menu-card__body">
+              <p class="menu-card__category">Milk Drinks</p>
+              <h3 class="menu-card__name">Honey Cardamom Latte</h3>
+              <p class="menu-card__desc">
+                Velvety oat milk steamed with raw wildflower honey and freshly cracked
+                green cardamom. A warm hug in a cup.
+              </p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$6.00</span>
+                <button class="menu-card__order" aria-label="Add Honey Cardamom Latte to order">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 3: Matcha -->
+          <li class="menu-card" data-category="milk">
+            <figure class="menu-card__image">
+              <div class="menu-card__image-inner menu-card__placeholder--matcha">
+                 <div class="menu-card__image-inner menu-card__placeholder--espresso">
+                  <img src="images/Matcha.jpg" alt="Double espresso in a ceramic cup" />
+                <!-- <div class="menu-card__placeholder" role="img" aria-label="Matcha latte illustration">
+                  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M14 16h28v26a6 6 0 0 1-6 6H20a6 6 0 0 1-6-6V16z" stroke="white" stroke-width="1.5" fill="none"/>
+                    <path d="M14 16h28" stroke="white" stroke-width="1.5"/>
+                    <path d="M20 24c2-2 14-2 16 0" stroke="white" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
+                    <path d="M22 8c-4 4-4 0-4 0s4-4 8 0" stroke="white" stroke-width="1.2" stroke-linecap="round" fill="none" opacity=".5"/>
+                    <path d="M30 8c-4 4-4 0-4 0s4-4 8 0" stroke="white" stroke-width="1.2" stroke-linecap="round" fill="none" opacity=".5"/>
+                  </svg>
+                </div> -->
+              </div>
+            </figure>
+            <div class="menu-card__body">
+              <p class="menu-card__category">Specialty</p>
+              <h3 class="menu-card__name">Ceremonial Matcha</h3>
+              <p class="menu-card__desc">
+                Grade-A ceremonial matcha whisked to a perfect froth, layered over
+                cold oat milk with a touch of vanilla bean.
+              </p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$6.50</span>
+                <button class="menu-card__order" aria-label="Add Ceremonial Matcha to order">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 4: Pastry -->
+          <li class="menu-card" data-category="food">
+            <figure class="menu-card__image">
+              <div class="menu-card__image-inner menu-card__placeholder--pastry">
+                 <div class="menu-card__image-inner menu-card__placeholder--espresso">
+                  <img src="images/pastries.jpg" alt="Double espresso in a ceramic cup" />
+                <!-- <div class="menu-card__placeholder" role="img" aria-label="Pastry illustration">
+                  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M8 38c0-16 8-24 20-24s20 8 20 24" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                    <path d="M6 38h44" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M18 38c0-8 4-14 10-14s10 6 10 14" stroke="white" stroke-width="1.2" fill="none" opacity=".5"/>
+                  </svg>
+                </div> -->
+              </div>
+              <span class="menu-card__badge">Fresh Daily</span>
+            </figure>
+            <div class="menu-card__body">
+              <p class="menu-card__category">Pastries</p>
+              <h3 class="menu-card__name">Almond Croissant</h3>
+              <p class="menu-card__desc">
+                Twice-baked with frangipane cream and toasted flaked almonds. Sourced
+                from a local French pâtisserie each morning at 7am.
+              </p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$4.75</span>
+                <button class="menu-card__order" aria-label="Add Almond Croissant to order">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 5: Cold Brew -->
+          <li class="menu-card" data-category="cold">
+            <figure class="menu-card__image">
+              <div class="menu-card__image-inner menu-card__placeholder--cold">
+                    <div class="menu-card__image-inner menu-card__placeholder--espresso">
+                    <img src="images/coldbrew.jpg" alt="Double espresso in a ceramic cup" />
+
+                <!-- <div class="menu-card__placeholder" role="img" aria-label="Cold brew illustration">
+                  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="16" y="10" width="24" height="36" rx="4" stroke="white" stroke-width="1.5" fill="none"/>
+                    <path d="M20 10V6M28 10V4M36 10V6" stroke="white" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
+                    <rect x="16" y="30" width="24" height="16" rx="0" fill="white" fill-opacity=".1"/>
+                    <circle cx="28" cy="24" r="4" stroke="white" stroke-width="1.2" fill="none" opacity=".5"/>
+                  </svg>
+                </div> -->
+              </div>
+              <span class="menu-card__badge">24h Steep</span>
+            </figure>
+            <div class="menu-card__body">
+              <p class="menu-card__category">Cold Brew</p>
+              <h3 class="menu-card__name">Midnight Cold Brew</h3>
+              <p class="menu-card__desc">
+                Steeped for 24 hours in filtered water. Silky-smooth with natural
+                sweetness and a long, lingering dark-cherry finish.
+              </p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$5.50</span>
+                <button class="menu-card__order" aria-label="Add Midnight Cold Brew to order">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 6: Seasonal -->
+          <li class="menu-card" data-category="espresso">
+            <figure class="menu-card__image">
+              <div class="menu-card__image-inner menu-card__placeholder--seasonal">
+                    <div class="menu-card__image-inner menu-card__placeholder--espresso">
+                    <img src="images/seasonal.jpg" alt="Double espresso in a ceramic cup" />
+                <!-- <div class="menu-card__placeholder" role="img" aria-label="Seasonal special illustration">
+                  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M28 8l4 8 9 1-6.5 6.3L36 33l-8-4.2L20 33l1.5-9.7L15 17l9-1z" stroke="white" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+                    <path d="M12 42h32M16 46h24" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </div> -->
+              </div>
+              <span class="menu-card__badge">Limited</span>
+            </figure>
+            <div class="menu-card__body">
+              <p class="menu-card__category">Seasonal Special</p>
+              <h3 class="menu-card__name">Spiced Maple Flat White</h3>
+              <p class="menu-card__desc">
+                Our autumn limited edition. Ristretto with steamed whole milk,
+                Canadian maple syrup, cinnamon and star anise bitters.
+              </p>
+              <div class="menu-card__footer">
+                <span class="menu-card__price">$7.00</span>
+                <button class="menu-card__order" aria-label="Add Spiced Maple Flat White to order">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+
+        </ul><!-- /menu__grid -->
+
+        <!-- View full menu CTA -->
+        <div style="text-align:center; margin-block-start:3rem;" class="reveal">
+          <a href="#contact" class="btn btn--outline">
+            View Full Menu &amp; Prices
+            <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M1 8h14M9 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section><!-- /menu -->
+
+
+    <!-- ── OUR CRAFT / PROCESS ────────────────────────────── -->
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="u-container">
+
+        <div style="max-width:52ch;">
+          <p class="u-tag reveal">Our Craft</p>
+          <h2 class="process__heading reveal" id="process-title">
+            From farm to your cup —<br />the journey matters.
+          </h2>
+        </div>
+
+        <ol class="process__grid reveal" role="list">
+
+          <li class="process__step">
+            <div class="process__num" aria-hidden="true">
+              <span class="process__icon">🌍</span>
+            </div>
+            <h3 class="process__title">Origin &amp; Sourcing</h3>
+            <p class="process__text">
+              We visit farms annually, tasting hundreds of lots to select beans that
+              meet our strict quality and ethical standards.
+            </p>
+          </li>
+
+          <li class="process__step">
+            <div class="process__num" aria-hidden="true">
+              <span class="process__icon">⚖️</span>
+            </div>
+            <h3 class="process__title">Green Grading</h3>
+            <p class="process__text">
+              Every shipment is cupped and graded. Only SCA 85+ scoring beans
+              make it to our drum roaster.
+            </p>
+          </li>
+
+          <li class="process__step">
+            <div class="process__num" aria-hidden="true">
+              <span class="process__icon">🔥</span>
+            </div>
+            <h3 class="process__title">Artisan Roasting</h3>
+            <p class="process__text">
+              Small 5kg batches on our vintage Probat drum roaster.
+              Each profile is developed over weeks of iteration.
+            </p>
+          </li>
+
+          <li class="process__step">
+            <div class="process__num" aria-hidden="true">
+              <span class="process__icon">☕</span>
+            </div>
+            <h3 class="process__title">Your Perfect Cup</h3>
+            <p class="process__text">
+              Served within days of roasting by trained baristas
+              who treat every drink as a finished dish.
+            </p>
+          </li>
+
+        </ol>
+
+      </div>
+    </section><!-- /process -->
+
+
+    <!-- ── TESTIMONIALS / REVIEWS ─────────────────────────── -->
+    <section class="reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="u-container">
+
+        <p class="u-tag reveal">Guest Reviews</p>
+        <h2 class="reviews__heading reveal" id="reviews-title">
+          Words from our<br />regulars
+        </h2>
+
+        <ul class="reviews__grid" role="list">
+
+          <li class="review-card reveal">
+            <span class="review-card__quote-mark" aria-hidden="true">&ldquo;</span>
+            <div class="review-card__stars" aria-label="5 stars">
+              ★★★★★
+            </div>
+            <blockquote>
+              <p class="review-card__text">
+                I've been to coffee shops in Melbourne, Tokyo, and Copenhagen. Grind &amp;
+                Gather holds its own against every single one. The Black Ritual espresso
+                is the best I've had on this continent.
+              </p>
+            </blockquote>
+            <footer class="review-card__author">
+              <div class="review-card__avatar" aria-hidden="true">M</div>
+              <div>
+                <p class="review-card__name">Marcus T.</p>
+                <p class="review-card__date">Regular since 2019 · Google Review</p>
+              </div>
+            </footer>
+          </li>
+
+          <li class="review-card reveal">
+            <span class="review-card__quote-mark" aria-hidden="true">&ldquo;</span>
+            <div class="review-card__stars" aria-label="5 stars">
+              ★★★★★
+            </div>
+            <blockquote>
+              <p class="review-card__text">
+                The Honey Cardamom Latte changed my life. That's not an exaggeration.
+                I drive 25 minutes each way three times a week just for it.
+                The staff know my name and my order. That's community.
+              </p>
+            </blockquote>
+            <footer class="review-card__author">
+              <div class="review-card__avatar" aria-hidden="true">S</div>
+              <div>
+                <p class="review-card__name">Sophia R.</p>
+                <p class="review-card__date">Regular since 2021 · Yelp</p>
+              </div>
+            </footer>
+          </li>
+
+          <li class="review-card reveal">
+            <span class="review-card__quote-mark" aria-hidden="true">&ldquo;</span>
+            <div class="review-card__stars" aria-label="5 stars">
+              ★★★★★
+            </div>
+            <blockquote>
+              <p class="review-card__text">
+                As a specialty coffee professional, I'm deeply skeptical of everywhere
+                I visit. Grind &amp; Gather's sourcing transparency and roast quality
+                are exceptional. This is what ethical coffee looks like.
+              </p>
+            </blockquote>
+            <footer class="review-card__author">
+              <div class="review-card__avatar" aria-hidden="true">D</div>
+              <div>
+                <p class="review-card__name">David K.</p>
+                <p class="review-card__date">Q Grader · Industry Professional</p>
+              </div>
+            </footer>
+          </li>
+
+        </ul>
+
+        <!-- Stats bar -->
+        <div class="reviews__stats reveal" role="list">
+          <div class="reviews__stat" role="listitem">
+            <strong>
+              <span data-count="4.9" data-decimals="1" data-suffix="">0</span>
+            </strong>
+            <span>Average Rating</span>
+          </div>
+          <div class="reviews__stat" role="listitem">
+            <strong>
+              <span data-count="2400" data-suffix="+">0</span>
+            </strong>
+            <span>Happy Customers</span>
+          </div>
+          <div class="reviews__stat" role="listitem">
+            <strong>
+              <span data-count="98" data-suffix="%">0</span>
+            </strong>
+            <span>Would Recommend</span>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /reviews -->
+
+
+    <!-- ── CONTACT / LOCATION ─────────────────────────────── -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="u-container">
+        <div class="contact__grid">
+
+          <!-- Left: info -->
+          <div>
+            <p class="u-tag reveal">Find Us</p>
+            <h2 class="contact__heading reveal" id="contact-title">
+              Come in.<br />Stay a while.
+            </h2>
+            <p class="contact__sub reveal">
+              We're open seven days a week, rain or shine. Our doors are
+              always open and there's always a fresh batch on the way.
+            </p>
+
+            <address>
+              <ul class="contact__info reveal" role="list">
+
+                <li class="contact__info-item">
+                  <div class="contact__info-icon" aria-hidden="true">📍</div>
+                  <div>
+                    <p class="contact__info-label">Address</p>
+                    <p class="contact__info-value">142 Roast Lane, Midtown</p>
+                    <p class="contact__info-sub">New York, NY 10001</p>
+                  </div>
+                </li>
+
+                <li class="contact__info-item">
+                  <div class="contact__info-icon" aria-hidden="true">🕐</div>
+                  <div>
+                    <p class="contact__info-label">Hours</p>
+                    <p class="contact__info-value">Mon – Fri: 7:00 am – 7:00 pm</p>
+                    <p class="contact__info-sub">Sat – Sun: 8:00 am – 6:00 pm</p>
+                  </div>
+                </li>
+
+                <li class="contact__info-item">
+                  <a href="tel:+12125550182" style="display:contents;">
+                    <div class="contact__info-icon" aria-hidden="true">📞</div>
+                    <div>
+                      <p class="contact__info-label">Phone</p>
+                      <p class="contact__info-value">+1 (212) 555-0182</p>
+                      <p class="contact__info-sub">Call for catering &amp; events</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="contact__info-item">
+                  <a href="mailto:hello@grindandgather.com" style="display:contents;">
+                    <div class="contact__info-icon" aria-hidden="true">✉️</div>
+                    <div>
+                      <p class="contact__info-label">Email</p>
+                      <p class="contact__info-value">hello@grindandgather.com</p>
+                      <p class="contact__info-sub">We reply within 24 hours</p>
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+            </address>
+
+            <!-- Map placeholder -->
+            <div class="contact__map reveal" style="margin-block-start:2rem;" aria-label="Map showing our location at 142 Roast Lane, Midtown, New York">
+              <div class="contact__map-inner">
+                <div class="contact__map-pin">
+                  <div class="contact__map-pin-icon" aria-hidden="true">📍</div>
+                  <p class="contact__map-pin-text">142 Roast Lane, Midtown NY</p>
+                  <!--
+                    REPLACE WITH embedded Google Map iframe:
+                    <iframe
+                      src="https://maps.google.com/maps?q=142+Roast+Lane+New+York&output=embed"
+                      width="100%" height="100%" style="border:0;" allowfullscreen
+                      loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                      title="Grind & Gather location map"
+                    ></iframe>
+                  -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: contact form -->
+          <div class="reveal">
+            <p class="u-tag" style="margin-block-end:1.5rem;">Send a Message</p>
+
+            <form class="contact-form" name="contact" action="#" method="POST" novalidate aria-label="Contact form">
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-name">Your Name</label>
+                  <input
+                    type="text"
+                    id="cf-name"
+                    name="name"
+                    autocomplete="name"
+                    placeholder="Jane Smith"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="cf-email">Email Address</label>
+                  <input
+                    type="email"
+                    id="cf-email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="jane@email.com"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="cf-subject">What's it about?</label>
+                <select id="cf-subject" name="subject">
+                  <option value="" disabled selected>Select a topic…</option>
+                  <option value="catering">Catering &amp; Events</option>
+                  <option value="wholesale">Wholesale Beans</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Something else</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="cf-message">Message</label>
+                <textarea
+                  id="cf-message"
+                  name="message"
+                  placeholder="Tell us what's on your mind — we'd love to hear from you…"
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">
+                Send Message
+                <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M1 8h14M9 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /contact -->
+
+
+    <!-- ── NEWSLETTER ─────────────────────────────────────── -->
+    <section class="newsletter" aria-labelledby="newsletter-title">
+      <div class="u-container newsletter__inner">
+
+        <h2 class="newsletter__heading" id="newsletter-title">
+          ☕ Join the inner circle
+        </h2>
+        <p class="newsletter__sub">
+          Get early access to seasonal releases, brewing guides, and
+          exclusive subscriber discounts. No spam — only good coffee.
+        </p>
+
+        <form class="newsletter__form" name="newsletter" novalidate aria-label="Newsletter signup">
+          <label for="nl-email" class="u-sr-only">Your email address</label>
+          <input
+            type="email"
+            id="nl-email"
+            name="email"
+            class="newsletter__input"
+            placeholder="your@email.com"
+            required
+            aria-required="true"
+            autocomplete="email"
+          />
+          <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+
+        <p style="font-size:.78rem; color:rgba(26,15,7,.55); margin-block-start:1rem;">
+          Unsubscribe anytime. We respect your inbox.
+        </p>
+
+      </div>
+    </section><!-- /newsletter -->
+
+
+  </main><!-- /main -->
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       SITE FOOTER
+  ════════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="u-container">
+
+      <div class="site-footer__top">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <p class="footer-brand__logo">Grind &amp; <span>Gather</span></p>
+          <p class="footer-brand__tagline">
+            Artisan coffee roasted daily in the heart of New York City.
+            Sourced ethically. Served passionately.
+          </p>
+          <nav class="footer-brand__socials" aria-label="Social media links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Follow us on Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Follow us on X / Twitter">
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M12.6 1H15L9.9 6.8 16 15h-4.6L7.5 9.9 2.9 15H0l5.5-6.2L0 1h4.7l3.6 4.8L12.6 1zM11.7 13.5h1.3L4.4 2.3H3l8.7 11.2z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Follow us on Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Follow us on TikTok">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </nav>
+        </div>
+
+        <!-- Navigation column -->
+        <nav class="footer-col" aria-label="Explore">
+          <p class="footer-col__title">Explore</p>
+          <ul class="footer-col__list" role="list">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">The Menu</a></li>
+            <li><a href="#process">Our Craft</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Find Us</a></li>
+          </ul>
+        </nav>
+
+        <!-- Products column -->
+        <nav class="footer-col" aria-label="Products">
+          <p class="footer-col__title">Products</p>
+          <ul class="footer-col__list" role="list">
+            <li><a href="#">Espresso Beans</a></li>
+            <li><a href="#">Filter Roasts</a></li>
+            <li><a href="#">Cold Brew Kits</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Merch</a></li>
+          </ul>
+        </nav>
+
+        <!-- Info column -->
+        <nav class="footer-col" aria-label="Information">
+          <p class="footer-col__title">Information</p>
+          <ul class="footer-col__list" role="list">
+            <li><a href="#">Wholesale Enquiries</a></li>
+            <li><a href="#">Catering &amp; Events</a></li>
+            <li><a href="#">Brewing Guides</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+
+      </div><!-- /site-footer__top -->
+
+      <!-- Bottom bar -->
+      <div class="site-footer__bottom">
+        <p class="site-footer__copy">
+          &copy; <time id="footer-year">2025</time> Grind &amp; Gather Coffee Co.
+          All rights reserved.
+        </p>
+        <nav class="site-footer__legal" aria-label="Legal links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Accessibility</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer><!-- /site-footer -->
+
+
+  <!-- JavaScript — deferred for performance -->
+  <script src="js/script.js" defer></script>
+
+</body>
+</html>
